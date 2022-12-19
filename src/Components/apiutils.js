@@ -42,7 +42,6 @@ export const getContacts = async () => {
         console.log(e)
     };
 }
-
 export const searchContact = async (key) => {
     const res = await axios.get(`https://cmc-server.onrender.com/v1/contacts/${key}`, 
             {headers: 

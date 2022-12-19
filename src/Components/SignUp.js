@@ -21,7 +21,7 @@ const SignUp = () => {
         setLogin((curr) => ({ ...curr, [e.target.name]: e.target.value }))
     };
 
-    const URL = "http://localhost:5000/v1"
+    const URL = "https://cmc-server.onrender.com/v1"
     const signUpUrl = `${URL}/signup`;
     const signUpUser = (userData) => {
 

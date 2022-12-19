@@ -19,7 +19,7 @@ const SignIn = () => {
         ifSessionExist('/contact')
     }, [])
 
-    const URL = "http://localhost:5000/v1"
+    const URL = "https://cmc-server.onrender.com/v1"
     const loginUrl = `${URL}/signin`
 
     const loginUser = async (loginData) => {
