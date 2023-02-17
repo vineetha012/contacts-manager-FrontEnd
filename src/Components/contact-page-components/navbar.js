@@ -57,8 +57,8 @@ const NavBar = ({ setcontacts }) => {
                     <img className="profile-img" src={prof} alt='profileImg'/>
                 </div>
                 <div>
-                    <div>{name}</div>
-                    <div>{email}</div>
+                    <h4 style={{marginLeft:"10px"}}>Profile</h4>
+                    <div style={{marginLeft:"10px"}}>{email}</div>
                 </div>
             </div>
         </div>
